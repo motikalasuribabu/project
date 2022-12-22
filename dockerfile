@@ -1,6 +1,6 @@
 FROM centos:7
 MAINTAINER "suri"
-RUN yum update -y
+#RUN yum update -y
 RUN touch /opt/file1
 RUN yum install git -y
 RUN git config --global user.name "DevOps Training"
