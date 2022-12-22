@@ -2,6 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  #- name: Installing Git Package
+  - name: Installing Git Package
     yum: name=git state=present
-    file: name=/opt/ssssuri state=file
+  - name: installing httpd package
+    yum: name=httpd 
