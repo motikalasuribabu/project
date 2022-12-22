@@ -17,6 +17,7 @@
     </properties>
 
     <build>
+     <finalName>mvn-project</finalName>
         <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
         <pluginManagement>
             <plugins>
