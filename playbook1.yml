@@ -3,5 +3,5 @@
   become: yes
   tasks:
   - name: Installing Git Package
-    yum: name=git
+    yum: name=git state=present
     file: name=/opt/ssssuri state=file
